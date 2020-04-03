@@ -7,15 +7,15 @@
 
   <!-- boostrap -->
   <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-  <link href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
   
   <!-- gt icon -->
   <link rel="shortcut icon" href="http://www.gatech.edu/sites/all/themes/gt_tlw/favicon.ico" type="image/vnd.microsoft.icon" />
   
   <!-- icons -->
-  <link rel="stylesheet" href="libs/font-awesome-4.6.3/css/font-awesome.min.css"/>
-  <link rel="stylesheet" href="libs/academicons-1.7.0/css/academicons.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.css"/>
   
   <!-- custom css -->
   <link href="custom.css" rel="stylesheet">
@@ -32,7 +32,7 @@
   <div>
     <ul class="nav navbar-nav">
       <li><a href="#research">Research</a></li>
-      <li><a href="files/jing_cv.pdf">CV</a></li>
+      <li><a href="./Resume.pdf">CV</a></li>
     </ul>
   </div>
   </div>
@@ -46,7 +46,7 @@
     <div class="row">
       <div class="col-md-4">
         <br/>
-        <img class="img-thumbnail img-responsive" src="./MandyXie.jpg">
+        <img class="img-thumbnail img-responsive" src="./photo-1.jpg">
       </div>
       <div class="col-md-8">
         <h2>Mandy Xie</h2>
@@ -85,15 +85,15 @@
   <div class="row">
     <div class="col-md-6">
       <div class="embed-responsive embed-responsive-16by9">
-        <img class="img-thumbnail img-responsive" src="./basic_dynamics_fg_puma.svg">
+        <img class="img-thumbnail img-responsive" src="./basic_dynamics_fg_puma.png">
       </div>
     </div>
-    <div class="col-md-6">
+  <div class="col-md-6">
       <p>
       Manipulator dynamics is one of the most fundamental problems in robotics, and it is considered to be a well studied problem. Various different algorithms have been developed  to  solve  each  type  of dynamics problems, including inverse, forward and hybrid dynamics problems.  However,  they  are  not  easily  explained  in  a unified and intuitive way. In this project, our goal is to develop a unified method which solves all types of dynamics problems for robotic manipulators with either open kinematic chains or closed kinematic loops based on factor graphs.
       </p>
 
- 			<br/>
+  <br/>
       <p>
       <span style="font-weight: bold;">Paper submission:</span>
       </p>
@@ -113,9 +113,7 @@
   <div class="row">
     <div class="col-md-6">
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe src="https://youtu.be/81XlutSCVE4" allowfullscreen></iframe>
-        <iframe src="https://youtu.be/b-mbJse6ySw" allowfullscreen></iframe>
-        <iframe src="https://youtu.be/DBdCSp7nABs" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/b-mbJse6ySw" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-md-6">
@@ -130,7 +128,7 @@
       </p>
       <span style='font-size: 14px;'>
       <p>
-      [1] M. Xie and F. Dellaert. Batch and Incremental Kinodynamic Motion Planning using Dynamic Factor Graphs. [PDF coming soon]
+      [1] M. Xie and F. Dellaert. Batch and Incremental Kinodynamic Motion Planning using Dynamic Factor Graphs. <a href="./kinodynamics_motion_planning_factor_graph.pdf">[PDF]</a>
       </p>
       </span>
     </div>
@@ -141,14 +139,13 @@
   <h3>Modeling and Simulation for Soft Robotic Arms using Finite Element Method based on Factor Graphs</h3>
   <br/>
   
-  <!-- arxiv ijrr 2017 -->
   <div class="row">
     <div class="col-md-6">
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe src="https://www.youtube.com/embed/m_bLSdsT2kg" allowfullscreen></iframe>
+        <img src="./FEM_factor_graph.png" width="450" height="250" />
       </div>
     </div>
-    <div class="col-md-6">
+  <div class="col-md-6">
       <p>
       Soft robots have contunuum solid bodies that is capable of deforming in an infinite number of ways, however, such property presents a formidable challenge to modeling and analysis. Many attempts have been made to establish a general modeling method for soft robots, and finite element method is one of the most popular methods, which has been widely used for both rigid and soft robots.  The FEM model can capture all the deformation information up to the resolution, and can represent the robot dynamics accurately. However, using such models is very difficult in a real-time system of control due to the heavy computation involved in solving FEM models. In this project, we are interested in developing FEM models using factor graphs, and taking advantages of the intuitive representation and efficient computation of factor graphs in solving either linear or nonlinear systems.
       </p>
