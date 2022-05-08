@@ -113,12 +113,12 @@
   <div class="row">
     <div class="col-md-6">
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe src="https://www.youtube.com/embed/b-mbJse6ySw" allowfullscreen></iframe>
+        <iframe src="https://youtu.be/pIVkMmZC4VY" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-md-6">
       <p>
-      In this project, we proposed a kinodynamic motion planner that is able to produce energy efficient motions by taking the full robot dynamics into account, and making use of gravity, inertia, and momentum to reduce the effort. Given a specific goal state for the robot, we use factor graph to solve a optimal trajectory, which meets not  only  the requirements  of  collision  avoidance,  but  also  all  kinematic  and dynamic  constraints,  such  as  velocity,  acceleration  and  torque limits.  By  exploiting  the  sparsity  in  factor  graphs,  we  can  solve a kinodynamic motion planning problem efficiently, on par with existing optical control methods, and use incremental elimination techniques to achieve an order of magnitude faster replanning 
+      In this project, we introduce dynamics factor graphs as a graphical framework to solve dynamics problems and kinodynamic motion planning problems with full consideration of whole-body dynamics and contacts. A factor graph representation of dynamics problems provides an insightful visualization of their mathematical structure and can be used in conjunction with sparse nonlinear optimizers to solve challenging, highdimensional optimization problems in robotics. We can easily formulate kinodynamic motion planning as a trajectory optimization problem with factor graphs. We demonstrate the flexibility and descriptive power of dynamics factor graphs by applying them to control various dynamical systems, ranging from a simple cart pole to a 12-DoF quadrupedal robot.
       </p>
 
       <br/>
@@ -128,7 +128,7 @@
       </p>
       <span style='font-size: 14px;'>
       <p>
-      [1] M. Xie and F. Dellaert. Batch and Incremental Kinodynamic Motion Planning using Dynamic Factor Graphs. <a href="./kinodynamics_motion_planning_factor_graph.pdf">[PDF]</a>
+      [1] M. Xie, A. Escontrela, and F. Dellaert. A Factor-Graph Approach for Optimization Problems with Dynamics Constraints. <a href="./dfg_dfgp.pdf">[PDF]</a>
       </p>
       </span>
     </div>
